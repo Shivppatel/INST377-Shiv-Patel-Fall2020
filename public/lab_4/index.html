@@ -1,1 +1,106 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Shiv Patel Lab 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+        <h1>Shiv Patel's Lab 4</h1>
+      <div class="container">
+        <form action="/api" method="post">
+          <ul class="flex-outer">
+            <li>
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="First Name"
+                placeholder="Enter your first name here"
+                maxlength="140"
+              />
+            </li>
+            <li>
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="Last Name"
+                placeholder="Enter your last name here"
+                maxlength="140"
+              />
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="Email Address"
+                id="email"
+                placeholder="Enter your email here"
+              />
+            </li>
+            <li>
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                name="Phone Number"
+                id="phone"
+                placeholder="Enter your phone here"
+              />
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea
+                rows="5"
+                cols="33"
+                id="message"
+                name="Message"
+                placeholder="Enter your message here"
+              ></textarea>
+            </li>
+            <li>
+              <p>Age</p>
+              <ul class="flex-inner">
+                <!-- list items here -->
+                <li>
+                  <input
+                    type="checkbox"
+                    id="age1"
+                    name="Age Group"
+                    value="18-35"
+                  />
+                  <label for="age1">18-35</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="Age Group" id="age2" value="35-50"
+                  />
+                  <label for="age2">35-50</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    name="Age Group"
+                    id="age3"
+                    value="50-65"
+                  />
+                  <label for="age3">50-65</label>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="submit"
+                formmethod="post"
+                value="submit"
+                name="Submit Button"
+              >
+                Submit
+              </button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
