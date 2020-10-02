@@ -24,6 +24,7 @@ body {
   background-color: #84c8f5;
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 .profile p {
@@ -72,7 +73,6 @@ body {
   justify-content: space-between;
 }
 
-
 /* || typography */
 
 h1,
@@ -119,11 +119,7 @@ img {
   border-width: 1px;
 }
 
-/* Media Rules Mobile */
-@media screen and (max-width: 350px) {
-
-}
-/* Media Rules laptop*/
+/* Media Rules*/
 @media screen and (max-width: 1000px) {
   .profile {
     display: flex;
