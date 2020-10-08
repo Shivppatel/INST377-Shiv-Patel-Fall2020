@@ -1,19 +1,10 @@
 /* || General setup */
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 html {
-  font-size: 10px;
+  font-size: 12.5px;
 }
 
 body {
-  width: 100%;
-  min-width: 800px;
-  margin: 0 auto;
   background-color: #3498db;
 }
 
@@ -23,7 +14,7 @@ h1,
 h2,
 h3 {
   font-family: "Comfortaa", cursive;
-  color: #ffffff;
+  color: #ecf0f1;
 }
 
 p,
@@ -49,55 +40,64 @@ li {
 /* || header layout */
 body > * {
   background-color: #3498db;
-  padding: 1%;
 }
 
 h1 {
   flex: 5;
   text-transform: uppercase;
 }
-
-/* || main layout */
-.wrapper li,
-.container {
+.flex-outer{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 0px 16px;
+}
+.flex-outer li{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  padding: 5px auto;
 }
-.wrapper > li > label,
-.wrapper li p {
-  flex: 1 0 120px;
-  max-width: 220px;
+input{
+  padding: 10px 0;
+  margin: 10px 0;
 }
-
-.wrapper > li > label + *,
-.container {
-  flex: 1 0 220px;
+.flex-outer li label{
+  padding: 8px;
+  flex: 1 0 125px;
+  max-width: 225px;
 }
-.wrapper > li > input, textarea {
-  padding: 1%;
-  margin-top: 1%;
-  border: none;
+.flex-outer li label + *{
+  flex: 1 0 225px;
 }
-
-.wrapper li button:hover {
+.flex-outer li p{
+  flex: 1 0 125px;
+  max-width: 225px;
+  padding: 8px;
+}
+.flex-inner{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 0 225px;
+}
+.flex-inner li{
+  width: 80px;
+}
+/* || main layout */
+.flex-outer li button:hover {
   background: #2ecc71;
   color: #ecf0f1;
 }
-.wrapper li button{
-  padding: 8px 16px;
+.flex-outer li button{
+  padding: 6px 12px;
   margin-top: 1%;
   border: none;
   background: #ecf0f1;
   color: #3498db;
   text-transform: uppercase;
   letter-spacing: 0.09em;
-  border-radius: 2px;
+  border-radius: 3px;
   align-items: flex-start;
-}
-.container li {
-  width: 100px;
-}
-.container {
-  justify-content: space-between;
 }
