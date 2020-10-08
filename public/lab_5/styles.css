@@ -1,0 +1,106 @@
+/* || General setup */
+
+html {
+  font-size: 12.5px;
+}
+
+body {
+  background-color: #3498db;
+}
+
+/* || typography */
+
+h1,
+h2,
+h3 {
+  font-family: "Comfortaa", cursive;
+  color: #ecf0f1;
+}
+
+p,
+input,
+li {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+  font-weight: 100;
+}
+p,
+li {
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  list-style-type: none;
+}
+
+/* || header layout */
+body > * {
+  background-color: #3498db;
+}
+
+h1 {
+  flex: 5;
+  text-transform: uppercase;
+}
+.flex-outer{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  padding: 0px 16px;
+}
+.flex-outer li{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px auto;
+}
+input{
+  padding: 10px 0;
+  margin: 10px 0;
+}
+.flex-outer li label{
+  padding: 8px;
+  flex: 1 0 125px;
+  max-width: 225px;
+}
+.flex-outer li label + *{
+  flex: 1 0 225px;
+}
+.flex-outer li p{
+  flex: 1 0 125px;
+  max-width: 225px;
+  padding: 8px;
+}
+.flex-inner{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 0 225px;
+}
+.flex-inner li{
+  width: 95px;
+}
+/* || main layout */
+.flex-outer li button:hover {
+  background: #2ecc71;
+  color: #ecf0f1;
+}
+.flex-outer li button{
+  padding: 6px 12px;
+  margin-top: 1%;
+  border: none;
+  background: #ecf0f1;
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  border-radius: 3px;
+  align-items: flex-start;
+}
+button {
+  margin-right: 10px;
+}
