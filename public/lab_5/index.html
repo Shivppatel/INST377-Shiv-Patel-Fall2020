@@ -87,7 +87,7 @@
             Submit
           </button>
           <button
-          type="button"
+          type="testFunction"
           value="activate"
           name="Activate Button"
           id="activate"
@@ -98,12 +98,15 @@
       </ul>
     </form>
   </div>
-  function testFunction() {
-    fetch('/api')
-    .then((response) => response.text())
-    .then((response) => {
-         console.log(response);
-    })
-}
+  <script>
+      function testFunction() {
+          fetch('/api')
+          .then((response) => response.text())
+          .then((response) => {
+                console.log(response);
+          })
+      }
+      </script>
+
   </body>
 </html>
