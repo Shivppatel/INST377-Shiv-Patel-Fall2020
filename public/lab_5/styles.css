@@ -38,9 +38,6 @@ li {
 }
 
 /* || header layout */
-body > * {
-  background-color: #3498db;
-}
 
 h1 {
   flex: 5;
