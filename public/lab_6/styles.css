@@ -40,7 +40,7 @@ body {
   max-width: 225px;
   padding: 8px;
 }
- 
+
 .flex-outer > li > label + *,
 .flex-inner {
   flex: 1 0 225px;
@@ -73,7 +73,7 @@ body {
 }
 
 .flex-outer {
-  max-width:800px;
+  max-width: 800px;
   padding: 0 16px;
-  margin:0 auto;
+  margin: 0 auto;
 }
