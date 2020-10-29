@@ -1,0 +1,33 @@
+Script started on 2020-10-29 04:44:52-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="128" LINES="12"]
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>]0;shivpatel@pop-os: ~/Desktop/Code/Shivppatel.github.io[01;32mshivpatel@pop-os[00m:[01;34m~/Desktop/Code/Shivppatel.github.io[00m$       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+]0;shivpatel@pop-os: ~/Desktop/Code/Shivppatel.github.io[01;32mshivpatel@pop-os[00m:[01;34m~/Desktop/Code/Shivppatel.github.io[00m$       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+]0;shivpatel@pop-os: ~/Desktop/Code/Shivppatel.github.io[01;32mshivpatel@pop-os[00m:[01;34m~/Desktop/Code/Shivppatel.github.io[00m$       crossorigin="anonymous"
+]0;shivpatel@pop-os: ~/Desktop/Code/Shivppatel.github.io[01;32mshivpatel@pop-os[00m:[01;34m~/Desktop/Code/Shivppatel.github.io[00m$     ></script>[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript
+Script started, output log file is 'typescript'.
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crosso]0;shivpatel@pop-os: ~/Desktop/Code/Shivppatel.github.io[01;32mshivpatel@pop-os[00m:[01;34m~/Desktop/Code/Shivppatel.github.io[00m$       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+]0;shivpatel@pop-os: ~/Desktop/Code/Shivppatel.github.io[01;32mshivpatel@pop-os[00m:[01;34m~/Desktop/Code/Shivppatel.github.io[00m$       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+]0;shivpatel@pop-os: ~/Desktop/Code/Shivppatel.github.io[01;32mshivpatel@pop-os[00m:[01;34m~/Desktop/Code/Shivppatel.github.io[00m$       crossorigin="anonymous"
+]0;shivpatel@pop-os: ~/Desktop/Code/Shivppatel.github.io[01;32mshivpatel@pop-os[00m:[01;34m~/Desktop/Code/Shivppatel.github.io[00m$     ></script>[K[K[K[K[K[K[K[K[K[K[K[K[K[Knpm install --saven [K[K node-fetch
+[?25l[[90m..................[0m] | idealTree: [32;40mtiming[0m [35marborist:ctor[0m Completed in 0ms[0m[K[[90m..................[0m] | idealTree: [32;40mtiming[0m [35marborist:ctor[0m Completed in 0ms[0m[K[[90m..................[0m] | idealTree: [32;40mtiming[0m [35marborist:ctor[0m Completed in 0ms[0m[K[[90m..................[0m] | idealTree:Shivppatel.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K[[90m..................[0m] / idealTree:Shivppatel.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K[[90m..................[0m] / idealTree:Shivppatel.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K[[90m..................[0m] / idealTree:Shivppatel.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K[[90m..................[0m] / idealTree:Shivppatel.github.io: [7msill[0m [35midealTree[0m buildDeps[0m[K[[7m         [27m[90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 1546ms[0m[K[[7m         [27m[90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 1546ms[0m[K[[7m         [27m[90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 1546ms[0m[K[K[?25h
+up to date, audited 571 packages in 2s
+
+found [32m[1m0[22m[39m vulnerabilities
+]0;shivpatel@pop-os: ~/Desktop/Code/Shivppatel.github.io[01;32mshivpatel@pop-os[00m:[01;34m~/Desktop/Code/Shivppatel.github.io[00m$ npm t[Kstart
+
+> inst377-fa2020@1.0.0 start
+> nodemon server.js
+
+[33m[nodemon] 2.0.4[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+Example app listening on port 3000!
+npm test        [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node server.js`[39m
+Exampl
